@@ -1,0 +1,213 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Lobster&family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+ * {
+     margin: 0;
+     font-family: 'Work Sans';
+ }
+
+ .btn {
+     width: 180px;
+     height: 64px;
+     background: #FF900E;
+     border-radius: 8px;
+     border: none;
+ }
+
+ /* header */
+ header {
+     display: flex;
+     flex-direction: column;
+     background: rgba(255, 144, 14, 0.1);
+ }
+
+ .nav {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 50px;
+ }
+
+ .logo h1 {
+     font-weight: 700;
+     font-size: 45px;
+     color: #131313;
+ }
+
+ .menu {}
+
+ .menu ul {
+     display: flex;
+ }
+
+ .menu ul li {
+     list-style: none;
+     margin-right: 40px;
+ }
+
+ .menu ul li a {
+     text-decoration: none;
+     font-weight: 500;
+     font-size: 18px;
+     color: #424242;
+ }
+
+ .header-info {
+     text-align: center;
+ }
+
+ .header-info h1 {
+     font-weight: 700;
+     font-size: 64px;
+     color: #131313;
+     margin-bottom: 35px;
+ }
+
+ .header-info p {
+     font-weight: 400;
+     font-size: 16px;
+     color: #727272;
+     margin-bottom: 32px;
+ }
+
+ .btn a {
+     text-decoration: none;
+     font-weight: 600;
+     font-size: 20px;
+     text-align: center;
+     color: #FFFFFF;
+ }
+
+ .banner img {
+     width: 70vw;
+     margin-top: 50px;
+     margin-bottom: 45px;
+ }
+
+ /* section-2 Quick List */
+ .quick-list-m {
+     margin-top: 85px;
+     margin-bottom: 130px;
+ }
+
+ .quick-list {
+     display: flex;
+     justify-content: space-around;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+
+ .quick-img {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 24px;
+ }
+
+ .quick-img img {
+     width: 342px;
+     height: 342px;
+ }
+
+ .quick-info {}
+
+ .quick-info h1 {
+     font-weight: 500;
+     font-size: 45px;
+     color: #727272;
+     margin-bottom: 24px;
+ }
+
+ .quick-info p {
+     font-weight: 400;
+     font-size: 16px;
+     color: #727272;
+     margin-bottom: 32px;
+ }
+
+ .quick-btn {}
+
+ /*  section-3 Features you will love & enjoy*/
+ .Features-you-will {
+     background-image: url(../images/architect.png);
+     background-repeat: no-repeat;
+     background-size: auto;
+     background-position: bottom 50px right 200px;
+     gap: 0px;
+ }
+
+ .Features-you-will-love {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: flex-end;
+ }
+
+ .title-f h1 {
+     font-weight: 700;
+     font-size: 45px;
+     color: #131313;
+     margin-bottom: 24px;
+ }
+
+ .par-f p {
+     width: 586px;
+     height: 78px;
+     color: #727272;
+ }
+
+ .info {
+     width: 586px;
+     height: 171px;
+     background: #FFFFFF;
+     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+     border-radius: 5px;
+     margin-bottom: 20px;
+     padding: 30;
+ }
+
+ .info-title {
+     padding: 30px;
+ }
+
+ .info-title h1 {
+     font-weight: 600;
+     font-size: 20px;
+     color: #131313;
+     margin-bottom: 10px;
+ }
+
+ .info-title p {
+     font-weight: 400;
+     font-size: 16px;
+     color: #727272;
+ }
+
+ .features {
+     margin-left: 103px;
+ }
+
+ .yr {
+     margin-right: 501px;
+     margin-bottom: -19px;
+ }
+
+.btn-2{
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+ .yrinfo {
+     padding: 46px 42px 45px 42px;
+ }
+
+ .yrinfo h1 {
+     font-weight: 700;
+     font-size: 65px;
+ }
+
+ .yrinfo h3 {
+     font-weight: 500;
+     font-size: 25px;
+ }
