@@ -309,6 +309,72 @@
      filter: grayscale(100%);
  }
 
+ /* extra */
+ .p-collection {
+    width: 1047px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.p-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+}
+
+.all-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 26px;
+    column-gap: -20rem;
+    justify-items: center
+}
+
+.collection {
+    display: grid;
+    align-items: center;
+    padding: 17px 15px 17px 15px;
+    width: 300px;
+    height: 476px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.thumb img {
+    width: 300px;
+    height: 256px;
+}
+
+.stars {}
+
+.filled {
+    color: #E02C6D;
+}
+
+.half {
+    color: #E02C6D;
+}
+
+.showmore {
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 0px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.showmore a {
+    text-decoration: none;
+    color: rgba(224, 44, 109, 0.87);
+}
+
+
  /* footer area */
 
  .footer-area {
@@ -376,6 +442,18 @@
      .par-f p {
          margin-bottom: 100px;
      }
+     /* extra */
+     .p-collection {
+        width: auto;
+    }
+
+    .all-col {
+        /* display: none; */
+        width: auto;
+        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
      .footer-area{
         padding: 0px;
      }
@@ -404,7 +482,7 @@
      .menu ul li {
          margin-left: 15px;
      }
-
+   
      .quick-list {
          /* display: none; */
          flex-direction: column;
@@ -439,32 +517,9 @@
      .featured_image{
         margin-left: -20px;
      }
-     /* display: none; */
-
-     /* .Features-you-will-love{
-        display: grid;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .features-info{
-        text-align: center;
-    }
-    .features{
-        
-    }
-    .info{
-        width: 80vw;
-    }
-    .yr{
-        text-align: center;
-        margin-left: 226px;
-    }
-    .yr{
-        display: none;
-    }
-    .info{
-        
-    } */
+     .banner img{
+        width: 90vw;
+     }
      .fact-item {
          margin-top: 10px;
          margin-right: 20px;
@@ -498,6 +553,18 @@
      .sponspors {
          /* display: none; */
      }
+     /* extre */
+     .p-collection {
+        width: auto;
+    }
+
+    .all-col {
+        /* display: none; */
+        width: auto;
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
      .footer-area{
         padding: 0px;
      }
