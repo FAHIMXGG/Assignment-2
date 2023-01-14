@@ -11,8 +11,15 @@
      background: #FF900E;
      border-radius: 8px;
      border: none;
+     transition-duration: 0.4s
  }
-
+.btn:hover{
+    /* background-color: #ffffff; */
+    
+}
+.btn a:hover{
+    color: #131313;
+}
  .c1 {
      color: #131313;
      font-weight: 700;
@@ -23,7 +30,7 @@
      font-weight: 700;
  }
 
- /* header */
+                                                  /* header */
  header {
      display: flex;
      flex-direction: column;
@@ -42,8 +49,11 @@
      font-weight: 700;
      font-size: 45px;
      color: #131313;
+     transition-duration: 0.4s
  }
-
+ .logo h1:hover{
+    color: #FF900E;;
+ }
  .menu {}
 
  .menu ul {
@@ -60,6 +70,10 @@
      font-weight: 500;
      font-size: 18px;
      color: #424242;
+     transition-duration: 0.4s
+ }
+ .menu ul li a:hover{
+    color: #FF900E;;
  }
 
  .header-info {
@@ -86,6 +100,7 @@
      font-size: 20px;
      text-align: center;
      color: #FFFFFF;
+     transition-duration: 0.4s
  }
 
  .banner img {
@@ -94,7 +109,7 @@
      margin-bottom: 45px;
  }
 
- /* section-2 Quick List */
+                                     /* section-2 Quick List */
  .quick-list-m {
      margin-top: 85px;
      margin-bottom: 130px;
@@ -136,7 +151,7 @@
 
  .quick-btn {}
 
- /*  section-3 Features you will love & enjoy*/
+                                   /*  section-3 Features you will love & enjoy*/
  .featuredcontent_container {
      margin-top: 6.8vw;
      display: flex;
@@ -211,7 +226,11 @@
      left: 48vw;
      margin-top: -7vw;
      border-radius: 8px;
+     transition-duration: 0.4s
 
+ }
+ .featured_btn_container:hover{
+    box-shadow: 0px 4px 30px rgba(228, 150, 5, 0.907);
  }
 
  .featured_btn_heading1 {
@@ -231,7 +250,7 @@
 
 
 
- /* Some-fact */
+                                                       /* Some-fact */
  .Facts {
      /* margin-left: 12%; */
      margin-top: 130px;
@@ -286,7 +305,7 @@
      padding: 65px 36px 49px 35px;
  }
 
- /* sponspors */
+                                                      /* sponspors */
  .sponspors {
      margin-top: 180px;
      margin-bottom: 130px;
@@ -329,7 +348,7 @@
      transform: scale(1.1);
  }
 
- /* extra */
+                                                /* extra */
  .p-collection {
      width: 1047px;
      margin-left: auto;
@@ -401,7 +420,7 @@
  }
 
 
- /* footer area */
+                                       /* footer area */
 
  .footer-area {
      padding: 130px 240px 116px 240px;
@@ -421,7 +440,7 @@
  .footer a {}
 
 
-
+                                           /* media */
  /* 992 */
  @media only screen and (min-width:689px) and (max-width:992px) {
      .quick-list {
