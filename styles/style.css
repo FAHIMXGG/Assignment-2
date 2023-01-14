@@ -460,7 +460,7 @@
 
      .featured_btn_container {
          margin-top: auto;
-         left: auto;
+         margin-left: -107px;
      }
 
      .featured_image {
