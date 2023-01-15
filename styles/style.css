@@ -298,6 +298,7 @@
  .item:hover {
      background-color: #ff59591d;
      color: #FF5959;
+     transform: scale(1.1);
  }
 
  .item-info {
