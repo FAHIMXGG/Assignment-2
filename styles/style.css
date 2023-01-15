@@ -513,8 +513,12 @@
          /* overflow-x: hidden; */
      }
 
+    .nav{
+        flex-direction: column;
+     }
+
      .logo {
-         display: none;
+         margin-bottom: 20px;
      }
 
      .menu {
